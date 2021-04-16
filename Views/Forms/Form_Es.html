@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Elecciones Institución Universitaria Bellas artes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</meta>
+</head>
+
+<body>
+    <div class="textInitial">
+        <span>Votaciones 2021 <br>ESTUDIANTES</span>
+        <h3>Ingresa tu número de identificación</h3>
+    </div>    
+    <form action="../../validar.php" method="post" class="container" >
+    <div class="button">
+        <input type="password" placeholder="Numero de identificacion" name="usua" id="usua" pattern="^(?=.*[0-9]).{4,12}$">
+		<input class="send" type="submit" name="enviar_est">
+    </div>
+    </form> 
+  </body>

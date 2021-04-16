@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+/* Styles card */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: column;
+}
+body
+{
+ display:flex;
+ align-items: center;
+ margin-top:80px;
+ min-height: 100vh;
+ background: #110101;
+ 
+ }
+ .textInitial{
+    text-align: center;
+ }
+ .textInitial span{
+ color: white;
+ font-weight: 700;
+ font-size: 40px;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ }
+ .textInitial h3
+ {
+ color: white;
+ font-weight: 300;
+ font-size: 15px;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+.container
+ {
+ width: 1200px;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ flex-direction:column !important;
+ }
+ .button
+ {
+ flex-direction:column;
+ margin:40px;
+ }
+ .button input
+{
+border-color: #fff;
+background:#2c0202;
+color: #fff;
+size:1000px;
+border-radius: 5px;
+font-size: 13px;
+padding: 12px 28px;
+transition-duration: 0.6s;
+cursor: pointer;
+border: none;
+margin:10px;
+}
+.button .send:hover
+{
+ background: #df0b07;
+}

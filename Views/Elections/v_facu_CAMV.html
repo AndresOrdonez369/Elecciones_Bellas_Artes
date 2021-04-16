@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Elecciones Institución Universitaria Bellas artes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="style.css">
+</meta>
+</head>
+
+<body>
+  <div style="float:right !important;">
+    <iframe src="timer.php" style="height: 60px; overflow:hidden; border:none;" frameBorder="0" scrolling="no"></iframe>
+  </div>
+    <div class="textInitial">
+        <span>Votaciones 2021 CAMV consejo de facultad</span>
+        <h3>Selecciona en la esquina superior izquierda el candidato de tu preferencia</h3>
+    </div>    
+    <form method="POST" action="../../fun.php" class="container" data-aos="fade-right"
+    data-aos-offset="300"
+    data-aos-easing="ease-in-sine">
+        <div class="box">
+            <div class="imgBx">
+              <img src="../../Assets/CAMV1.jpeg">
+            </div>
+            <div class="content">
+                <h2>Patricia Aguirre <br><span>Directora Campus Virtual</span></h2>
+            </div>
+            <div class="check">
+                     <label for="Candidato1">
+                     <input type="radio" name="Candidato" id="Candidato1" value="1"> 
+                     <span>Votar</span>
+                    </label>
+           </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+              <img src="../../Assets/CAMV2.jpeg">
+            </div>
+            <div class="content">
+                <h2>Andrea Tamayo<br><span>Directora Diseño</span></h2>
+            </div>
+            <div class="check">
+                     <label for="Candidato2">
+                     <input type="radio" name="Candidato" id="Candidato2" value="2"> 
+                     <span>Votar</span>
+                     </label>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="../../Assets/CAMV3.jpeg">
+            </div>
+            <div class="content">
+                <h2>Neiver Escobar <br><span>Director Formación</span></h2>
+            </div>
+            <div class="check">
+                <label for="Candidato3">
+                    <input type="radio" name="Candidato" id="Candidato3" value="3"> 
+                    <span>Votar</span>
+                </label>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="../../Assets/CAMV4.jpeg">
+            </div>
+            <div class="content">
+                <h2> Voto en Blanco</h2>
+            </div>
+            <div class="check">
+                <label for="Candidato4">
+                    <input type="radio" title="Voto en blanco" name="Candidato" id="Candidato4" value="0"> 
+                        <span>Votar</span>
+                </label> 
+            </div>
+        </div>
+      <div class="container"> 
+        <div class="button">
+            <input type="submit" name="Vota1" title="Votar" value="Realizar voto CAMV">
+        </div> 
+      </div>         
+    </form>
+  </body>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>

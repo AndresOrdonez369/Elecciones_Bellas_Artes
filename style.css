@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+*
+{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:white;
+}
+.container
+{
+    position: relative;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.textContainer
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+.textContainer img 
+{    width:150px;
+    height:150px;
+    margin-bottom: 30px;
+    padding-top:15;
+
+}
+.textContainer h1
+{
+    font-size:40px;
+    text-align:center;
+}
+.container .card
+{
+    position:relative;
+    width:300px;
+    height:400px;
+    margin:30px;
+    overflow:hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .card .content
+{
+    position:absolute;
+    bottom: 0;
+    width:100%;
+    height:130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    flex-direction: column;
+    backdrop-filter: blur(15px);
+    box-shadow: 10 -10px 10px rgba(0,0,0,0.1);
+}
+.container .card .content a button
+{
+    position: relative;
+    display: inline-block;
+    margin: 20px 10px;
+    width: 60px;
+    background: #110101;
+    border: 1px solid rgb(100, 100, 100);
+    color:white;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 14px;
+    transition-duration: 0.6s;
+    cursor: pointer;
+    border: none;
+}
+.container .card .content a button:hover
+{
+   background: #df0b07;
+ }
